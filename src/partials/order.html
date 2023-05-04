@@ -1,0 +1,79 @@
+<div class="backdrop">
+  <div class="modal">
+    <button class="modal-btn-close" type="button">
+      <svg class="modal-icon-close" width="20" height="20">
+        <use href="../img/sprite.svg#close"></use>
+      </svg>
+    </button>
+    <h2 class="invisible">Purchase registration</h2>
+    <div class="order-watch">
+      <img
+        srcset="
+          ../img/catalog/watch-01.jpg    1x,
+          ../img/catalog/watch-01@2x.jpg 2x
+        "
+        src="../img/catalog/watch-01.jpg"
+        alt="photo of the watch"
+      />
+      <p class="order-item-title">Tube Watch S42 Date Steel With Black</p>
+      <p class="order-item-price">€395</p>
+
+      <form name="order" class="order" autocomplete="on">
+        <label for="" class="order-form-label">
+          <span class="form-label"> Full name </span>
+          <input
+            type="text"
+            class="order-form-input"
+            name="user_name"
+            id="user_name"
+            placeholder="Enter your full name"
+            pattern="^[A-Za-zА-Яа-яІіЇїЄє\s]+$"
+            required
+          />
+        </label>
+        <label for="" class="order-form-label">
+          <span class="form-label">Email</span>
+          <input
+            type="email"
+            class="order-form-input"
+            name="user_email"
+            id="user_email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <label class="order-form-label">
+          <span class="form-label">Card number</span>
+          <input
+            type="tel"
+            class="order-form-input"
+            name="user_card"
+            id="user_card"
+            placeholder="Enter card"
+            required
+          />
+        </label>
+
+        <label class="order-form-comments">
+          <span class="form-label-comments">Comments</span>
+          <textarea
+            class="order-form-comments"
+            name="user_comments"
+            id="user_comments"
+            placeholder="Enter your text"
+          ></textarea>
+        </label>
+
+        <p class="order-agreement">
+          By clicking on “Submit” button, you agree to our&nbsp;<a
+            class="privacy-police"
+            href=""
+            >Privacy Policy</a
+          >, and allow Promodo to use this information for marketing purposes.
+        </p>
+
+        <button type="submit" class="order-submit-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
