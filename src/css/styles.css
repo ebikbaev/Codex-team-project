@@ -32,3 +32,8 @@
   --dark-green: #1e2827;
   --white: #ffffff;
 }
+body {
+  font-family: 'Epilogue', sans-serif;
+  background-color: var(--white);
+
+}
