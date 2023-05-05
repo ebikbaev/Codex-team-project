@@ -94,7 +94,7 @@
   color: var(--white);
 }
 .slider-svg{
-  fill: var(--white);
+  fill: rgba(255, 255, 255, 0.5);;
 }
 
 .Hero-text {
