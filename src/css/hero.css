@@ -18,3 +18,156 @@
       max-width: 1280px;
     }
 }
+
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.Hero {
+  padding: 80px 0px;
+  background-color: var(--black);
+}
+
+.Hero-title {
+  margin-bottom: 60px;
+
+
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: var(--white);
+  text-align: start;
+
+}
+
+
+
+
+.Hero-clock-img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.Hero-slider-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 266px;
+}
+
+.Hero-button-slider {
+  padding: 7px;
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.Hero-button-slider:nth-child(2) {
+  margin-left: 12px;
+}
+
+.Hero-button-slider:hover,
+.Hero-button-slider:focus {
+  border: 1px solid var(--white);
+  border-radius: 8px;
+}
+
+.Hero-slider-nuber {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.Hero-slider-nuber-all {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+.slider-svg{
+  fill: var(--white);
+}
+
+.Hero-text {
+
+  margin-left: auto;
+  width: 248px;
+
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  text-align: left;
+}
+
+
+/* ----------------------------------------------------media---------------------------------------- */
+@media screen and (max-width:767px) {
+  .Hero-text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .Hero-title {
+    font-size: 60px;
+    line-height: 1.03;
+    width: 653px;
+  }
+
+  .Hero-slider-wrapper {
+    width: 436px;
+  }
+
+  .Hero-wraper {
+    position: relative;
+  }
+
+  .Hero-text {
+    position: absolute;
+    top: 70px;
+    right: 20px;
+  }
+
+}
+
+@media screen and (max-width:1280px) {
+  .Hero-position-text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .Hero-title {
+    position: relative;
+
+    width: 750px;
+  }
+
+  .Hero-wraper {
+    position: static;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .Hero-text {
+    position: absolute;
+    top: 148px;
+    right: 144px;
+    width: 282px;
+  }
+
+}
