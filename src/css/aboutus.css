@@ -1,106 +1,136 @@
-.container{
-width: 320px;
-margin: auto;
-}
-.textone-sectiontow,
-.texttwo-sectiontow{
-width: 100%;
-}
-.text-line{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.name-section2{
-font-weight: 600;
-font-size: 32px;
-line-height: calc(40 / 32);
-letter-spacing: -0.02em;
-color: var(--dark-green);
-margin-bottom: 40px;
-
-}
-.style-text{
-font-weight: 300;
-font-size: 14px;
-line-height: 18px;
-letter-spacing: -0.02em;
-color: var(--black);
-}
-.list-sectiontow{
+.container-aboutus{
+  width: 320px;
+  margin: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+  .textone-sectiontow,
+  .texttwo-sectiontow{
+  width: 100%;
+  }
+  .text-line{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .name-section2{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: calc(40 / 32);
+  letter-spacing: -0.02em;
+  color: var(--dark-green);
   margin-bottom: 40px;
-}
-.watch-gif{
-  display: flex;
-  width: 335px;
-  height: 365px;
-  margin: 0 auto;
-}
-@media screen and (min-width: 375px) {
-    .container {
-      max-width: 375px;
-    }
-    .aboutus> .container{
-      width: 335px;
-  }
-   
-  }
   
-  @media screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
-    .aboutus> .container{
-      width: 704px;
   }
-    .sectiontwo{
-      display: flex;
-    }
-    .name-section2{
-      font-size: 40px;
-      line-height: calc(44 / 40);
-      white-space: nowrap;
-      margin-right: 40px;
-      margin-bottom: 0;
+  .style-text{
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  color: var(--black);
   }
-     .textone-sectiontow{
-      width: 220px;
-     }
-     .texttwo-sectiontow{
-      width: 250px;
-     }
-    .watch-gif{
-      width: 704px;
-      height: 465px;
-    }
-   
-}
-  @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-    .aboutus > .container{
-      width: 1176px;
+  .list-sectiontow{
+    margin-bottom: 40px;
   }
-    .sectiontwo > .list-sectiontow {
-      width: 859px;
-    }
-    .name-section2{
-      margin-right: 110px;
+  .watch-gif{
+    display: flex;
+    width: 335px;
+    height: 365px;
+    margin: 0 auto;
+  }
+   .watchspotaverage{
+     display: none;
+  }
+  .watchspot{
+    display: none;
+  } 
+  @media screen and (min-width: 375px) {
+      .container {
+        max-width: 375px;
       }
-    .text-line{
-      gap: 40px;
+      .aboutus> .container-aboutus{
+        width: 335px;
+        padding: 0;
     }
-    .textone-sectiontow{
-      width: 439px;
-     }
-     .texttwo-sectiontow{
-      width: 380px;
-     }
-    .watch-gif{
-    width: 892px;
-    height: 500px;
-    margin: 0;
-    margin-left: auto;
+     .watchspotaverage{
+      display: block;
+      
+   }
+     .watchspotmin{
+      display: none;
+   }
+     
+    }
+    
+    @media screen and (min-width: 768px) {
+      .container {
+        max-width: 768px;
+      }
+      .aboutus> .container-aboutus{
+        width: 704px;
+
+    }
+      .watchspotaverage{
+        display: none;
+      }
+      .watchspot{
+        display: block;
+        width: 704px;
+        height: 456px;
+      }
+      .sectiontwo{
+        display: flex;
+      }
+      .name-section2{
+        font-size: 40px;
+        line-height: calc(44 / 40);
+        white-space: nowrap;
+        margin-right: 40px;
+        margin-bottom: 0;
+    }
+       .textone-sectiontow{
+        width: 220px;
+       }
+       .texttwo-sectiontow{
+        width: 250px;
+       }
+      .watch-gif{
+        width: 704px;
+        height: 465px;
+      }
+     
   }
-}
+    @media screen and (min-width: 1280px) {
+      .container {
+        max-width: 1280px;
+      }
+      .aboutus > .container-aboutus{
+        width: 1176px;
+    }
+      .sectiontwo > .list-sectiontow {
+        width: 859px;
+
+      }
+      .watchspot{
+        width: 859px;
+        height: 500px;
+      }
+      .name-section2{
+        margin-right: 110px;
+        }
+      .text-line{
+        gap: 40px;
+      }
+      .textone-sectiontow{
+        width: 439px;
+       }
+       .texttwo-sectiontow{
+        width: 380px;
+       }
+      .watch-gif{
+      width: 892px;
+      height: 500px;
+      margin: 0;
+      margin-left: auto;
+    }
+  }
