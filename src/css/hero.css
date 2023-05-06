@@ -1,30 +1,33 @@
-.test-class{
-    display: flex;
+.test-class {
+  display: flex;
 }
 @media screen and (min-width: 375px) {
-    .container {
-      max-width: 375px;
-      margin:  0 auto;
-    }
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
   }
-  
-  @media screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-        margin: 0 auto;
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-        margin: 0 auto;
-    }
 }
-@media screen and (min-width: 1280px){ 
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 0px 32px 0px 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 52px 0px 52px;
+  }
+}
+@media screen and (min-width: 1280px) {
   .Hero > .container {
-  width: 1176px;
-}
+    width: 11280px;
+  }
 }
 
 .img {
@@ -36,13 +39,10 @@
 .Hero {
   padding: 80px 0px;
   background-color: var(--black);
-
-  
 }
 
 .Hero-title {
   margin-bottom: 60px;
-
 
   font-weight: 600;
   font-size: 38px;
@@ -50,11 +50,7 @@
   letter-spacing: -0.04em;
   color: var(--white);
   text-align: start;
-
 }
-
-
-
 
 .Hero-clock-img {
   display: block;
@@ -102,15 +98,20 @@
   letter-spacing: -0.02em;
   color: var(--white);
 }
-.slider-svg{
-  fill: rgba(255, 255, 255, 0.5);;
+.slider-svg {
+  fill: rgba(255, 255, 255, 0.5);
 }
-
+.Hero-vector {
+  border: 1px solid var(--white);
+}
+.Hero-slider-number {
+  display: flex;
+  align-items: center;
+  gap: 0px 6px;
+}
 .Hero-text {
-
   margin-left: auto;
   width: 248px;
-
 
   font-weight: 300;
   font-size: 14px;
@@ -120,26 +121,28 @@
   text-align: left;
 }
 
-
 /* ----------------------------------------------------media---------------------------------------- */
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .Hero-text {
     margin-bottom: 40px;
   }
-    .Hero{
-      padding: 69px 0px 40px 0px;
-    }
+  .Hero {
+    padding: 69px 0px 40px 0px;
+  }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .Hero-title {
     font-size: 60px;
     line-height: 1.03;
     width: 653px;
   }
-     .Hero {
-       padding: 80px 0px 64px 0px;
-     }
+  .Hero-vector {
+    width: 40px;
+  }
+  .Hero {
+    padding: 80px 0px 64px 0px;
+  }
 
   .Hero-slider-wrapper {
     width: 436px;
@@ -152,29 +155,26 @@
   .Hero-text {
     position: absolute;
     top: 70px;
-    right: 64px;
+    right: 0px;
   }
-
 }
 
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1280px) {
   .Hero-position-text {
     margin-bottom: 40px;
   }
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width: 1280px) {
   .Hero {
-      padding: 80px 0px  80px 0px;
-    }
+    padding: 80px 0px 80px 0px;
+  }
   .Hero-title {
     position: relative;
 
     width: 750px;
   }
-
   .Hero-wraper {
-
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -183,8 +183,7 @@
   .Hero-text {
     position: absolute;
     top: -184px;
-    right:0px;
+    right: 0px;
     width: 282px;
   }
-
 }
