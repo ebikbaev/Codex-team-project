@@ -80,7 +80,6 @@
 .Hero-button-slider:hover,
 .Hero-button-slider:focus {
   border: 1px solid var(--white);
-  border-radius: 8px;
 }
 
 .Hero-slider-nuber {
@@ -101,6 +100,10 @@
 .slider-svg {
   fill: rgba(255, 255, 255, 0.5);
 }
+.Hero-button-slider:hover .slider-svg  {
+  fill:rgba(255, 255, 255, 1);
+}
+
 .Hero-vector {
   border: 1px solid var(--white);
 }
