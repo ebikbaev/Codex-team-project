@@ -126,6 +126,9 @@
   .Hero-text {
     margin-bottom: 40px;
   }
+    .Hero{
+      padding: 69px 0px 40px 0px;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -134,6 +137,9 @@
     line-height: 1.03;
     width: 653px;
   }
+     .Hero {
+       padding: 80px 0px 64px 0px;
+     }
 
   .Hero-slider-wrapper {
     width: 436px;
@@ -158,6 +164,9 @@
 }
 
 @media screen and (min-width:1280px) {
+  .Hero {
+      padding: 80px 0px  80px 0px;
+    }
   .Hero-title {
     position: relative;
 
