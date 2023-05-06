@@ -4,21 +4,28 @@
 @media screen and (min-width: 375px) {
     .container {
       max-width: 375px;
+      margin:  0 auto;
     }
   }
   
   @media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
+        margin: 0 auto;
     }
   }
   
   @media screen and (min-width: 1280px) {
     .container {
       max-width: 1280px;
+        margin: 0 auto;
     }
 }
-
+@media screen and (min-width: 1280px){ 
+  .Hero > .container {
+  width: 1176px;
+}
+}
 
 .img {
   display: block;
@@ -29,6 +36,8 @@
 .Hero {
   padding: 80px 0px;
   background-color: var(--black);
+
+  
 }
 
 .Hero-title {
@@ -137,7 +146,7 @@
   .Hero-text {
     position: absolute;
     top: 70px;
-    right: 20px;
+    right: 64px;
   }
 
 }
@@ -156,7 +165,6 @@
   }
 
   .Hero-wraper {
-    position: static;
 
     display: flex;
     justify-content: space-between;
@@ -165,8 +173,8 @@
 
   .Hero-text {
     position: absolute;
-    top: 148px;
-    right: 144px;
+    top: -184px;
+    right:0px;
     width: 282px;
   }
 
