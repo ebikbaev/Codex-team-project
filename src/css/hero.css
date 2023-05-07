@@ -1,20 +1,235 @@
-.test-class{
-    display: flex;
+.test-class {
+  display: flex;
+}
+@media screen and (max-width: 375px) {
+  .Hero-container {
+    padding: 0px 5px;
+  }
 }
 @media screen and (min-width: 375px) {
-    .container {
-      max-width: 375px;
-    }
+  .Hero-container {
+    max-width: 375px;
+    padding: 0px 20px;
   }
-  
-  @media screen and (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
 }
+
+@media screen and (min-width: 768px) {
+  .Hero-container {
+    max-width: 768px;
+    padding: 0px 32px 0px 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Hero-container {
+    max-width: 1280px;
+    padding: 0px 52px 0px 52px;
+  }
+}
+.Hero-container {
+  margin: 0 auto;
+}
+
+.Hero-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.Hero {
+  padding: 80px 0px;
+  background-color: var(--black);
+}
+
+.Hero-title {
+  margin-bottom: 60px;
+
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: var(--white);
+  text-align: start;
+}
+
+.Hero-clock-img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.Hero-slider-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  width: 266px;
+}
+.Hero-wrapper-button{
+  display: flex;
+}
+.Hero-button-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding: 7px;
+
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+
+.Hero-button-slider:nth-child(2) {
+  margin-left: 12px;
+}
+
+.Hero-button-slider:hover,
+.Hero-button-slider:focus {
+  border: 1px solid var(--white);
+}
+
+.Hero-slider-nuber {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+
+.Hero-slider-nuber-all {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white);
+}
+.slider-svg {
+  fill: rgba(255, 255, 255, 0.5);
+}
+.Hero-button-slider:hover .slider-svg  {
+  fill:rgba(255, 255, 255, 1);
+}
+
+.Hero-vector {
+  width: 32px;
+  border: 1px solid var(--white);
+}
+.Hero-slider-number {
+  display: flex;
+  align-items: center;
+  gap: 0px 6px;
+}
+.Hero-text {
+  margin-left: auto;
+  width: 248px;
+
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  text-align: left;
+}
+
+/* ----------------------------------------------------media---------------------------------------- */
+@media screen and (max-width: 767px) {
+  .Hero-text {
+    margin-bottom: 40px;
+  }
+  .Hero {
+    padding: 35px 0px 40px 0px;
+  }
+  .swiper {
+  width: 266px;
+  height: 200px;
+}
+.slider-svg {
+  width: 18px;
+  height: 18px;
+}
+.Hero-button-slider{
+width: 32px;
+height: 32px;
+}
+}
+
+@media screen and (min-width: 768px) {
+  .Hero-title {
+    font-size: 60px;
+    line-height: 1.03;
+    width: 653px;
+  }
+  .Hero-vector {
+    width: 40px;
+  }
+  .Hero {
+    padding: 40px 0px 64px 0px;
+  }
+
+  .Hero-slider-wrapper {
+    width: 436px;
+  }
+
+  .Hero-wraper {
+    position: relative;
+  }
+
+  .Hero-text {
+    position: absolute;
+    top: 70px;
+    right: 0px;
+  }
+  .swiper {
+  width: 436px;
+  height: 255px;
+}
+.Hero-button-slider{
+width: 40px;
+height: 40px;
+}
+.slider-svg {
+  width: 24px;
+  height: 24px;
+}
+}
+
+@media screen and (max-width: 1280px) {
+  .Hero-position-text {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Hero {
+    padding: 40px 0px 80px 0px;
+  }
+  .Hero-title {
+    position: relative;
+
+    width: 750px;
+  }
+  .Hero-wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .Hero-text {
+    position: absolute;
+    top: -166px;
+    right: 0px;
+    width: 282px;
+  }
+    .Hero-title {
+    margin-bottom: 43px;
+  }
+}
+.swiper{
+  margin-bottom: 20px;
+  margin-left: 0px !important;
+}
+
+
+
+
+
