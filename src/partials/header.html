@@ -1,59 +1,63 @@
 <header class="header">
-  <div class="container">
+  <div class="header-container">
     <nav class="nav">
-      <a href="#" class="logo-link a">
-        <svg class="logo-img" width="19" height="19">
-          <use></use>
+      <a href="#" class="logo-link">
+        <svg class="logo-img-mob" width="14" height="14">
+          <use href="./img/icons.svg#icon-mob-logo-cropped"></use>
+        </svg>
+        <svg width="19" height="19" class="logo-img-tablet-desktop">
+          <use href="./img/icons.svg#icon-PC-logo-cropped"></use>
         </svg>
         thewatchspot
       </a>
-      <ul class="nav-list ul">
+      <ul class="nav-list">
         <li class="nav-item">
-          <a href="#" class="nav-item-link a">About us</a>
+          <a href="#">About us</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item-link a">Catalog</a>
+          <a href="#">Catalog</a>
         </li>
         <li class="nav-item">
-          <a href="#" class="nav-item-link a">sale</a>
+          <a href="#">sale</a>
         </li>
       </ul>
     </nav>
     <address class="header-address">
-      <a href="tel:+380684439426" class="header-address-link a"
+      <a href="tel:+380684439426" class="header-address-link"
         >+380 (68) 443-94-26</a
       >
     </address>
-    <button type="button" class="mobile-menu-button">
-      <svg class="mobile-menu-img" width="20" height="14">
-        <use href=""></use>
+    <button type="button" class="mobile-menu-button" data-menu-open>
+      <svg width="20" height="14">
+        <use href="./img/icons.svg#icon-burger-mob"></use>
       </svg>
     </button>
   </div>
-  <div class="mobile-menu">
-    <a href="#" class="logo-link a">
-      <svg class="logo-img" width="14" height="14">
-        <use></use>
+  <div class="mobile-menu is-hidden" data-menu>
+    <a href="#" class="mobile-menu-logo-link">
+      <svg class="logo-img-mob" width="14" height="14">
+        <use href="./img/icons.svg#icon-mob-logo-cropped"></use>
       </svg>
       thewatchspot
     </a>
-    <button class="close-modal">
-      <svg width="12" height="12">
-        <use href=""></use>
+    <button class="close-modal" data-menu-close>
+      <svg width="24" height="24" class="close-modal-img">
+        <use href="./img/icons.svg#icon-X-2"></use>
       </svg>
     </button>
-    <nav class="nav-mobile-menu">
+    <nav>
       <ul class="mobile-menu-list">
         <li class="mobile-menu-item">
-          <a href="#" class="nav-item-link a">About us</a>
+          <a href="#">About us</a>
         </li>
         <li class="mobile-menu-item">
-          <a href="#" class="nav-item-link a">Catalog</a>
+          <a href="#">Catalog</a>
         </li>
         <li class="mobile-menu-item">
-          <a href="#" class="nav-item-link a">sale</a>
+          <a href="#">sale</a>
         </li>
       </ul>
     </nav>
   </div>
+  <script src="./js/mobile-menu.js"></script>
 </header>
