@@ -219,6 +219,9 @@ height: 40px;
     right: 0px;
     width: 282px;
   }
+    .Hero-title {
+    margin-bottom: 43px;
+  }
 }
 .swiper{
   margin-bottom: 20px;
