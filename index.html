@@ -15,7 +15,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <link rel="stylesheet" href="/Codex-team-project/assets/index-0238e571.css">
+    <link rel="stylesheet" href="/Codex-team-project/assets/index-f52afa91.css">
   </head>
   <body>
     <header class="header">
@@ -87,25 +87,125 @@
     <h1 class="Hero-title">Welcome to our collection of premium watches</h1>
     <div class="Hero-wraper">
       <div class="Hero-position-text">
-        <picture class="Hero-clock-img Hero-img">
-          <source
-            srcset="/Codex-team-project/assets/hero-clock-mob-d09470e3.png 1x, /Codex-team-project/assets/hero-clock-mob2x-1764c53c.png 2x, /Codex-team-project/assets/hero-clock-mob3x-5df33064.png 3x"
-            media="(max-width: 767px)"
-            width="266"
-            height="200"
-          />
-          <source
-            srcset="/Codex-team-project/assets/Hero-slider-clock-f28a3f91.png , /Codex-team-project/assets/Hero-slider-clock-2x-f3c6b067.png 2x"
-            media="(min-width: 768px)"
-            width="436"
-            height="255"
-          />
-          <img src="./img/hero/hero-clock-mob.png " alt="watch" />
-        </picture>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- swiper ------------------------------------------------->
+            <div class="swiper-slide">
+              <picture class="Hero-clock-img Hero-img">
+                <source
+                  srcset="/Codex-team-project/assets/hero-clock-mob-d09470e3.png 1x, /Codex-team-project/assets/hero-clock-mob2x-1764c53c.png 2x, /Codex-team-project/assets/hero-clock-mob3x-5df33064.png 3x"
+                  media="(max-width: 767px)"
+                  width="266"
+                  height="200"
+                />
+                <source
+                  srcset="/Codex-team-project/assets/Hero-slider-clock-f28a3f91.png , /Codex-team-project/assets/Hero-slider-clock-2x-f3c6b067.png 2x"
+                  media="(min-width: 768px)"
+                  width="436"
+                  height="255"
+                />
+                <img src="../img/hero/hero-clock-mob.png " alt="watch" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="Hero-clock-img Hero-img">
+                <source
+                  srcset="
+                    ../img/hero/22-hero-mob.jpg    1x,
+                    ../img/hero/22-hero-mob-2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                  width="266"
+                  height="200"
+                />
+                <source
+                  srcset="
+                    ../img/hero/22-Hero-slider.jpg    1x,
+                    ../img/hero/22-Hero-slider-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  width="436"
+                  height="255"
+                />
+                <img src="../img/hero/22-Hero-slider.jpg " alt="watch" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="Hero-clock-img Hero-img">
+                <source
+                  srcset="
+                    ../img/hero/33-Hero-slider-mob.jpg    1x,
+                    ../img/hero/33-Hero-slider-mob-2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                  width="266"
+                  height="200"
+                />
+                <source
+                  srcset="
+                    ../img/hero/33-Hero-slider.jpg   1x,
+                    ../img/hero/33-Hero-slider2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  width="436"
+                  height="255"
+                />
+                <img src="../img/hero/33-Hero-slider.jpg" alt="watch" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="Hero-clock-img Hero-img">
+                <source
+                  srcset="
+                    ../img/hero/44-Hero-slider-mob.jpg    1x,
+                    ../img/hero/44-Hero-slider-mob-2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                  width="266"
+                  height="200"
+                />
+                <source
+                  srcset="
+                    ../img/hero/44-Hero-slider.jpg   1x,
+                    ../img/hero/44-Hero-slider2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  width="436"
+                  height="255"
+                />
+                <img src="../img/hero/hero-clock-mob.png " alt="watch" />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              <picture class="Hero-clock-img Hero-img">
+                <source
+                  srcset="
+                    ../img/hero/55-Hero-slider-mob.jpg    1x,
+                    ../img/hero/55-Hero-slider-mob-2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                  width="266"
+                  height="200"
+                />
+                <source
+                  srcset="
+                    ../img/hero/55-Hero-slider.jpg   1x,
+                    ../img/hero/55-Hero-slider2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                  width="436"
+                  height="255"
+                />
+                <img src="../img/hero/hero-clock-mob.png " alt="watch" />
+              </picture>
+            </div>
+          </div>
+        </div>
         <div class="Hero-slider-wrapper">
-          <div>
+          <div class="Hero-wrapper-button">
             <button
-              class="Hero-button-slider"
+              class="Hero-button-slider button-prev"
+
               type="button"
               aria-label="button-slider"
             >
@@ -114,7 +214,9 @@
               </svg>
             </button>
             <button
-              class="Hero-button-slider"
+
+              class="Hero-button-slider button-next"
+
               type="button"
               aria-label="button-slider"
             >
@@ -124,14 +226,15 @@
             </button>
           </div>
           <div class="Hero-slider-number">
-            <span class="Hero-slider-nuber">01</span
-            ><svg class="Hero-vector" Width="32" Height="0">
-              <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-vector-pc"></use>
-            </svg>
+
+            <span class="Hero-slider-nuber">01</span>
+            <span class="Hero-vector"></span>
+
             <span class="Hero-slider-nuber-all">05</span>
           </div>
         </div>
       </div>
+      <!-- ------------------end---swiper=============== -->
       <p class="Hero-text">
         Our watches are not just timepieces, but also an expression of your
         personality and lifestyle. From classic designs to modern ones, we have
@@ -155,7 +258,9 @@
           media="(min-width: 1280px)"
           width="676"
         />
-        <img src="/Codex-team-project/assets/Hero-tab-efc2ecc8.jpg" alt="watch on hand" />
+
+        <img src="../img/hero/Hero-tab.jpg" alt="watch on hand" />
+
       </picture>
     </div>
   </div>
@@ -563,9 +668,42 @@
   </div>
 </section>
 
-    <section class="test-clas3">
-   6
-   </section>
+    <section class="new-watches-section container">
+  <h2 class="new-watches-title">New watches</h2>
+
+  <p class="new-watches-description">
+    Green And Bronze—The Match Made In Heaven
+  </p>
+
+  <div>
+    <ul class="new-watches-list">
+      <li>
+        <img
+          class="new-watches-img"
+          srcset="
+            ../img/new_watches_img_1_1x.jpg 1x,
+            ../img/new_watches_img_1_2x.jpg 2x
+          "
+          src="../img/new_watches_img_1_1x.jpg"
+          alt="watch on hand"
+        />
+      </li>
+
+      <li>
+        <img
+          class="new-watches-img"
+          srcset="
+            ../img/new_watches_img_2_1x.jpg 1x,
+            ../img/new_watches_img_2_2x.jpg 2x
+          "
+          src="../img/new_watches_img_2_1x.jpg"
+          alt="watch"
+        />
+      </li>
+    </ul>
+  </div>
+</section>
+
     <section class="sale-section">
   <div class="sale-container">
     <h2 class="sale-title">Sale</h2>
