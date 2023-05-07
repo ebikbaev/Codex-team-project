@@ -111,6 +111,7 @@
 }
 
 .Hero-vector {
+  width: 32px;
   border: 1px solid var(--white);
 }
 .Hero-slider-number {
@@ -136,7 +137,7 @@
     margin-bottom: 40px;
   }
   .Hero {
-    padding: 69px 0px 40px 0px;
+    padding: 35px 0px 40px 0px;
   }
   .swiper {
   width: 266px;
@@ -162,7 +163,7 @@ height: 32px;
     width: 40px;
   }
   .Hero {
-    padding: 80px 0px 64px 0px;
+    padding: 40px 0px 64px 0px;
   }
 
   .Hero-slider-wrapper {
@@ -200,7 +201,7 @@ height: 40px;
 
 @media screen and (min-width: 1280px) {
   .Hero {
-    padding: 80px 0px 80px 0px;
+    padding: 40px 0px 80px 0px;
   }
   .Hero-title {
     position: relative;
@@ -215,7 +216,7 @@ height: 40px;
 
   .Hero-text {
     position: absolute;
-    top: -184px;
+    top: -166px;
     right: 0px;
     width: 282px;
   }
