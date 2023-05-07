@@ -33,5 +33,14 @@
       <path d="M27.681 18.564 20.933 3.107l-1.472-1.02-1.725-.549L15.403.91l-2.74 1.177-1.827 1.02 6.9 15.457h9.944zM3.464 13.395l6.748 15.493 1.471 1.022 1.725.55 2.334.629 2.739-1.18 1.827-1.022-6.9-15.493H3.464z"/>
       <path d="M10.476 3.309 0 18.451l10.476.112 7.572-15.254c.532-1.56 2.195-.65 2.961 0-3.27-5.992-8.385-2.497-10.533 0zm10.152 25.382 10.476-15.142-10.476-.112-7.573 15.254c-.531 1.56-2.195.65-2.96 0 3.27 5.992 8.385 2.497 10.533 0z"/>
     </symbol>
+    <symbol id="icon-vector-pc" viewBox="0 0 640 32">
+      <path stroke-width="16" d="M0 16h640"/>
+    </symbol>
+    <symbol id="icon-vector-mob" viewBox="0 0 512 32">
+      <path stroke-width="16" d="M0 16h512"/>
+    </symbol>
+    <symbol id="icon-X-2" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7333" d="M24 8l-16 16M8 8l16 16"></path>
+</symbol>
   </defs>
 </svg>
