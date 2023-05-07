@@ -39,7 +39,7 @@ footer {
 .footer {
   max-width: 280px;
   color: white;
-  padding: 20px;
+  padding: 20px 5px;
   padding-top: 40px;
   margin: 0 auto;
 }
@@ -53,14 +53,9 @@ footer {
   width: 40px;
   height: 40px;
   margin-bottom: 40px;
-  fill: white;
 }
 .footer-address {
   width: 136px;
-}
-.footer-address-list {
-}
-.footer-address-item {
 }
 .footer-address-item:not(:last-child) {
   margin-bottom: 20px;
@@ -88,8 +83,6 @@ footer {
 .footer-soc-list {
   display: flex;
   gap: 14px;
-}
-.footer-soc-item {
 }
 .footer-soc-link {
   display: block;
@@ -127,6 +120,7 @@ footer {
 @media screen and (min-width: 375px) {
   .footer {
     max-width: 375px;
+    padding: 20px;
   }
 }
 
@@ -208,9 +202,6 @@ footer {
   }
   .footer-nav-list {
     width: 115px;
-  }
-  .footer-nav-item:not(:last-child) {
-    margin-bottom: 20px;
   }
   .footer-soc-list {
     margin-left: 367px;
