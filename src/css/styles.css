@@ -41,6 +41,6 @@
 }
 body {
   font-family: 'Epilogue', sans-serif;
-  background-color: var(--white);
+  background-color: #fbfbfb;
   color: var(--black);
 }
