@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/Codex-team-project/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()" />
     <title>Vanilla App Template</title>
 
     <link
@@ -15,8 +15,7 @@
       referrerpolicy="no-referrer"
     />
     
-    <script type="module" crossorigin src="/Codex-team-project/assets/index-6fa2b837.js"></script>
-    <link rel="stylesheet" href="/Codex-team-project/assets/index-02c78da3.css">
+    <link rel="stylesheet" href="/Codex-team-project/assets/index-0238e571.css">
   </head>
   <body>
     <header class="header">
@@ -24,10 +23,10 @@
     <nav class="nav">
       <a href="#" class="logo-link">
         <svg class="logo-img-mob" width="14" height="14">
-          <use href="../img/icons.svg#icon-mob-logo-cropped"></use>
+          <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-mob-logo-cropped"></use>
         </svg>
         <svg width="19" height="19" class="logo-img-tablet-desktop">
-          <use href="../img/icons.svg#icon-PC-logo-cropped"></use>
+          <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-PC-logo-cropped"></use>
         </svg>
         thewatchspot
       </a>
@@ -48,22 +47,22 @@
         >+380 (68) 443-94-26</a
       >
     </address>
-    <button type="button" class="mobile-menu-button" data-modal-open>
+    <button type="button" class="mobile-menu-button" data-menu-open>
       <svg width="20" height="14">
-        <use href="../img/icons.svg#icon-burger-mob"></use>
+        <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-burger-mob"></use>
       </svg>
     </button>
   </div>
-  <div class="mobile-menu is-hidden" data-modal>
+  <div class="mobile-menu is-hidden" data-menu>
     <a href="#" class="mobile-menu-logo-link">
       <svg class="logo-img-mob" width="14" height="14">
-        <use href="../img/icons.svg#icon-mob-logo-cropped"></use>
+        <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-mob-logo-cropped"></use>
       </svg>
       thewatchspot
     </a>
-    <button class="close-modal" data-modal-close>
+    <button class="close-modal" data-menu-close>
       <svg width="24" height="24" class="close-modal-img">
-        <use href="../img/icons.svg#icon-X-2"></use>
+        <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-X-2"></use>
       </svg>
     </button>
     <nav>
@@ -80,7 +79,7 @@
       </ul>
     </nav>
   </div>
-  <script type="script" src="../js/mobile-menu.js"></script>
+  <script src="./js/mobile-menu.js"></script>
 </header>
 
     <section class="Hero">
@@ -93,31 +92,41 @@
             srcset="/Codex-team-project/assets/hero-clock-mob-d09470e3.png 1x, /Codex-team-project/assets/hero-clock-mob2x-1764c53c.png 2x, /Codex-team-project/assets/hero-clock-mob3x-5df33064.png 3x"
             media="(max-width: 767px)"
             width="266"
-            height="200">
+            height="200"
+          />
           <source
             srcset="/Codex-team-project/assets/Hero-slider-clock-f28a3f91.png , /Codex-team-project/assets/Hero-slider-clock-2x-f3c6b067.png 2x"
             media="(min-width: 768px)"
             width="436"
-            height="255">
-          <img src="../img/hero/hero-clock-mob.png " alt="watch"/>
+            height="255"
+          />
+          <img src="./img/hero/hero-clock-mob.png " alt="watch" />
         </picture>
         <div class="Hero-slider-wrapper">
           <div>
-            <button  class="Hero-button-slider" type="button" aria-label="button-slider">
+            <button
+              class="Hero-button-slider"
+              type="button"
+              aria-label="button-slider"
+            >
               <svg class="slider-svg" Height="24" Width="24">
-                <use href=" ../img/icons.svg#icon-slider-left"></use>
+                <use href=" ./img/icons.svg#icon-slider-left"></use>
               </svg>
             </button>
-            <button class="Hero-button-slider" type="button" aria-label="button-slider">
+            <button
+              class="Hero-button-slider"
+              type="button"
+              aria-label="button-slider"
+            >
               <svg class="slider-svg" Height="24" Width="24">
-                <use href="../img/icons.svg#icon-slider-right"></use>
+                <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-slider-right"></use>
               </svg>
             </button>
           </div>
           <div class="Hero-slider-number">
             <span class="Hero-slider-nuber">01</span
             ><svg class="Hero-vector" Width="32" Height="0">
-              <use href="../img/icons.svg#icon-vector-pc"></use>
+              <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-vector-pc"></use>
             </svg>
             <span class="Hero-slider-nuber-all">05</span>
           </div>
@@ -133,17 +142,20 @@
           srcset="/Codex-team-project/assets/hero-mob-91247ab2.jpeg 1x, /Codex-team-project/assets/hero-mob-91247ab2.jpeg 2x, /Codex-team-project/assets/hero-mob3x-3ddd307a.jpeg 3x"
           media="(max-width: 767px)"
           width="335"
-          height="410">
+          height="410"
+        />
         <source
           srcset="/Codex-team-project/assets/Hero-tab-efc2ecc8.jpg 1x, /Codex-team-project/assets/Hero-tab-2x-c91c7952.jpg 2x, /Codex-team-project/assets/Hero-tab-3x-3390aeb6.jpg 3x"
           media="(max-width: 1279px)"
           width="704"
-          height="410">
+          height="410"
+        />
         <source
           srcset="/Codex-team-project/assets/Hero-dex-ee205acf.jpg 1x, /Codex-team-project/assets/Hero-dex-2x-2891dadb.jpg 2x, /Codex-team-project/assets/Hero-dex-3x-959218c1.jpg 3x"
           media="(min-width: 1280px)"
-          width="676">
-        <img src="../img/hero/Hero-tab.jpg" alt="watch on hand"/>
+          width="676"
+        />
+        <img src="/Codex-team-project/assets/Hero-tab-efc2ecc8.jpg" alt="watch on hand" />
       </picture>
     </div>
   </div>
@@ -177,349 +189,380 @@
 </section>
 
     <section class="test-clas2 container">
-    <div class="section">
-        <h3 class="catalog-title">Catalog</h3>
-        <ul class="catalog-list">
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img
-                        src="../img/catalog/watch-s42.jpg"
-                        srcset="../img/catalog/watch-s42.jpg 1x,../img/catalog/watch-s42-2x.jpg 2x"
-                        alt="Tube Watch S42 Date Steel With Black Case">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Tube Watch S42 Date Steel With Black...</h3>
-                    <p class="catalog-item-text">€395</p>
-                </a>
-            </li>
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-avondale.jpg"
-                        srcset="../img/catalog/watch-avondale.jpg 1x,../img/catalog/watch-avondale-2x.jpg 2x"
-                        alt="Avondale Watch Police For Men">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Avondale Watch Police For Men</h3>
-                    <p class="catalog-item-text">€800</p>
-                </a>
-            </li>
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img
-                        src="../img/catalog/watch-diver.jpg"
-                        srcset="../img/catalog/watch-diver.jpg 1x,../img/catalog/watch-diver-2x.jpg 2x"
-                        alt="Diver  300M Co‑Axial Master Chronometer Chronograph">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Diver  300M Co‑Axial Master Chronomete...</h3>
-                    <p class="catalog-item-text">€600</p>
-                </a>
-            </li>
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-diver2.jpg"
-                        srcset="../img/catalog/watch-diver2.jpg 1x,../img/catalog/watch-diver2-2x.jpg 2x"
-                        alt="Diver 300M Co-Axial Master Chronometer">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Diver 300M Co-Axial Master Chronometer</h3>
-                    <p class="catalog-item-text">€1400</p>
-                </a>
-            </li>
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img
-                        src="../img/catalog/watch-taman.jpg"
-                        srcset="../img/catalog/watch-taman.jpg 1x,../img/catalog/watch-taman-2x.jpg 2x"
-                        alt="Taman Watch By Police For Men">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Taman Watch By Police For Men</h3>
-                    <p class="catalog-item-text">€500</p>
-                </a>
-            </li>
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-malawi.jpg"
-                        srcset="../img/catalog/watch-malawi.jpg 1x,../img/catalog/watch-malawi-2x.jpg 2x"
-                        alt="Malawi Watch Police For Men">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Malawi Watch Police For Men</h3>
-                    <p class="catalog-item-text">€555</p>
-                </a>
-            </li>
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-diver3.jpg"
-                        srcset="../img/catalog/watch-diver3.jpg 1x,../img/catalog/watch-diver3-2x.jpg 2x"
-                        alt="Diver 300M Co-Axial Master Chronometer">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Diver 300M Co-Axial Master...</h3>
-                    <p class="catalog-item-text">€1200</p>
-                </a>
-            </li>
-            <li class="catalog-item">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-greenlane.jpg"
-                        srcset="../img/catalog/watch-greenlane.jpg 1x,../img/catalog/watch-greenlane-2x.jpg 2x"
-                        alt="Greenlane Watch By Police For Men">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Greenlane Watch By Police For Men</h3>
-                    <p class="catalog-item-text">€1000</p>
-                </a>
-            </li>
-            <li class="catalog-item watch">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-squardrc.jpg"
-                        srcset="../img/catalog/watch-squardrc.jpg 1x,../img/catalog/watch-squardrc-2x.jpg 2x"
-                        alt="Squardrc 5402 Chrono">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Squardrc 5402 Chrono</h3>
-                    <p class="catalog-item-text">€359</p>
-                </a>
-            </li>
-            <li class="catalog-item watch">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-diver4.jpg"
-                        srcset="../img/catalog/watch-diver4.jpg 1x,../img/catalog/watch-diver4-2x.jpg 2x"
-                        alt="Diver  300M Co‑Axial Master Chronometer Chronograph">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Diver  300M Co‑Axial Master...</h3>
-                    <p class="catalog-item-text">€400</p>
-                </a>
-            </li>
-            <li class="catalog-item watch">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-citizen.jpg"
-                        srcset="../img/catalog/watch-citizen.jpg 1x,../img/catalog/watch-citizen-2x.jpg 2x"
-                        alt="Citizen">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Citizen</h3>
-                    <p class="catalog-item-text">€519</p>
-                </a>
-            </li>
-            <li class="catalog-item watch">
-                <a class="catalog-link link" href="">
-                    <div class="catalog-cover-wrap">
-                        <div class="img-watch">
-                        <img 
-                        src="../img/catalog/watch-armani.jpg"
-                        srcset="../img/catalog/watch-armani.jpg 1x,../img/catalog/watch-armani-2x.jpg 2x"
-                        alt="Armani Exchange">
-                        </div>
-                        <div class="catalog-wrap">
-                            <p class="wrap-tile">Description</p>
-                            <p class="wrap-text">Richly detailed with an understated design - the Police Men’s Greenlane watch.</p>
-                            <p class="wrap-tile">DETAILS & FEATUREStion</p>
-                            <p class="wrap-text-two">
-                                Gender: man <br>
-                                Size: 46x54.5mm <br>
-                                Case Colour: Steel <br>
-                                Band Material: Metal
-                                Case Material: Metal
-                                Features: Multifunction
-                                Water Resistant: 5 (ATM)
-                                Band Colour: Steel</p>
-                        </div>
-                    </div>
-                    <h3 class="catalog-item-title">Armani Exchange</h3>
-                    <p class="catalog-item-text">€400</p>
-                </a>
-            </li>
-        </ul>
-        <button type="button" class="catalog-btn">BUY NOW</button>
-    </div>
-   </section>
+  <div class="section">
+    <h3 class="catalog-title">Catalog</h3>
+    <ul class="catalog-list">
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-s42-31e9bee9.jpg"
+                srcset="/Codex-team-project/assets/watch-s42-31e9bee9.jpg 1x, /Codex-team-project/assets/watch-s42-2x-a524d38d.jpg 2x"
+                alt="Tube Watch S42 Date Steel With Black Case"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">
+            Tube Watch S42 Date Steel With Black...
+          </h3>
+          <p class="catalog-item-text">€395</p>
+        </a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-avondale-b007ab70.jpg"
+                srcset="/Codex-team-project/assets/watch-avondale-b007ab70.jpg 1x, /Codex-team-project/assets/watch-avondale-2x-23004850.jpg 2x"
+                alt="Avondale Watch Police For Men"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Avondale Watch Police For Men</h3>
+          <p class="catalog-item-text">€800</p>
+        </a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-diver-2e0a67b4.jpg"
+                srcset="/Codex-team-project/assets/watch-diver-2e0a67b4.jpg 1x, /Codex-team-project/assets/watch-diver-2x-4f80b982.jpg 2x"
+                alt="Diver  300M Co‑Axial Master Chronometer Chronograph"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">
+            Diver 300M Co‑Axial Master Chronomete...
+          </h3>
+          <p class="catalog-item-text">€600</p>
+        </a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-diver2-64f036fa.jpg"
+                srcset="/Codex-team-project/assets/watch-diver2-64f036fa.jpg 1x, /Codex-team-project/assets/watch-diver2-2x-86220d4f.jpg 2x"
+                alt="Diver 300M Co-Axial Master Chronometer"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">
+            Diver 300M Co-Axial Master Chronometer
+          </h3>
+          <p class="catalog-item-text">€1400</p>
+        </a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-taman-bb597745.jpg"
+                srcset="/Codex-team-project/assets/watch-taman-bb597745.jpg 1x, /Codex-team-project/assets/watch-taman-2x-caf555b6.jpg 2x"
+                alt="Taman Watch By Police For Men"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Taman Watch By Police For Men</h3>
+          <p class="catalog-item-text">€500</p>
+        </a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-malawi-700cd8ee.jpg"
+                srcset="/Codex-team-project/assets/watch-malawi-700cd8ee.jpg 1x, /Codex-team-project/assets/watch-malawi-2x-9a623701.jpg 2x"
+                alt="Malawi Watch Police For Men"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Malawi Watch Police For Men</h3>
+          <p class="catalog-item-text">€555</p>
+        </a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-diver3-2104a8d7.jpg"
+                srcset="/Codex-team-project/assets/watch-diver3-2104a8d7.jpg 1x, /Codex-team-project/assets/watch-diver3-2x-afb461f9.jpg 2x"
+                alt="Diver 300M Co-Axial Master Chronometer"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Diver 300M Co-Axial Master...</h3>
+          <p class="catalog-item-text">€1200</p>
+        </a>
+      </li>
+      <li class="catalog-item">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-greenlane-bd0a885f.jpg"
+                srcset="/Codex-team-project/assets/watch-greenlane-bd0a885f.jpg 1x, /Codex-team-project/assets/watch-greenlane-2x-c16769d6.jpg 2x"
+                alt="Greenlane Watch By Police For Men"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Greenlane Watch By Police For Men</h3>
+          <p class="catalog-item-text">€1000</p>
+        </a>
+      </li>
+      <li class="catalog-item watch">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-squardrc-a92005e7.jpg"
+                srcset="/Codex-team-project/assets/watch-squardrc-a92005e7.jpg 1x, /Codex-team-project/assets/watch-squardrc-2x-4b56cf5a.jpg 2x"
+                alt="Squardrc 5402 Chrono"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Squardrc 5402 Chrono</h3>
+          <p class="catalog-item-text">€359</p>
+        </a>
+      </li>
+      <li class="catalog-item watch">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-diver4-631ebe27.jpg"
+                srcset="/Codex-team-project/assets/watch-diver4-631ebe27.jpg 1x, /Codex-team-project/assets/watch-diver4-2x-065675ba.jpg 2x"
+                alt="Diver  300M Co‑Axial Master Chronometer Chronograph"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Diver 300M Co‑Axial Master...</h3>
+          <p class="catalog-item-text">€400</p>
+        </a>
+      </li>
+      <li class="catalog-item watch">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-citizen-4f0b105f.jpg"
+                srcset="/Codex-team-project/assets/watch-citizen-4f0b105f.jpg 1x, /Codex-team-project/assets/watch-citizen-2x-483517b1.jpg 2x"
+                alt="Citizen"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Citizen</h3>
+          <p class="catalog-item-text">€519</p>
+        </a>
+      </li>
+      <li class="catalog-item watch">
+        <a class="catalog-link link" href="">
+          <div class="catalog-cover-wrap">
+            <div class="img-watch">
+              <img
+                src="/Codex-team-project/assets/watch-armani-6240a7b7.jpg"
+                srcset="/Codex-team-project/assets/watch-armani-6240a7b7.jpg 1x, /Codex-team-project/assets/watch-armani-2x-6b941efb.jpg 2x"
+                alt="Armani Exchange"
+              />
+            </div>
+            <div class="catalog-wrap">
+              <p class="wrap-tile">Description</p>
+              <p class="wrap-text">
+                Richly detailed with an understated design - the Police Men’s
+                Greenlane watch.
+              </p>
+              <p class="wrap-tile">DETAILS & FEATUREStion</p>
+              <p class="wrap-text-two">
+                Gender: man <br />
+                Size: 46x54.5mm <br />
+                Case Colour: Steel <br />
+                Band Material: Metal Case Material: Metal Features:
+                Multifunction Water Resistant: 5 (ATM) Band Colour: Steel
+              </p>
+            </div>
+          </div>
+          <h3 class="catalog-item-title">Armani Exchange</h3>
+          <p class="catalog-item-text">€400</p>
+        </a>
+      </li>
+    </ul>
+    <button type="button" class="catalog-btn" data-modal-open>BUY NOW</button>
+  </div>
+</section>
+
     <section class="test-clas3">
    6
    </section>
@@ -651,9 +694,9 @@
       <div class="footer-container">
         <div>
           <!-- <svg class="footer-logo">
-            <use href="../img/icons.svg#icon-PC-logo-cropped"></use>
+            <use href="./img/icons.svg#icon-PC-logo-cropped"></use>
           </svg> -->
-          <img src="../img/logo.svg" alt="logo" class="footer-logo" />
+          <img src="/Codex-team-project/assets/logo-e64e790b.svg" alt="logo" class="footer-logo" />
           <address class="footer-address">
             <ul>
               <li class="footer-address-item">
@@ -684,21 +727,21 @@
           <li class="footer-soc-item">
             <a href="" class="footer-soc-link">
               <svg class="footer-soc-icon">
-                <use href="../img/icons.svg#icon-facebook"></use>
+                <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="footer-soc-item">
             <a href="" class="footer-soc-link">
               <svg class="footer-soc-icon">
-                <use href="../img/icons.svg#icon-instagram"></use>
+                <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="footer-soc-item">
             <a href="" class="footer-soc-link">
               <svg class="footer-soc-icon">
-                <use href="../img/icons.svg#icon-youtube"></use>
+                <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-youtube"></use>
               </svg>
             </a>
           </li>
@@ -715,22 +758,19 @@
   </div>
 </footer>
 
-    <div class="backdrops-hidden" data-backdrop>
+    <div class="backdrop is-hidden" data-modal>
   <div class="modal">
     <button class="modal-btn-close" type="button" data-modal-close>
       <svg class="modal-icon-close">
-        <use href="../img/icons.svg#icon-X"></use>
+        <use href="/Codex-team-project/assets/icons-fa37c872.svg#icon-X"></use>
       </svg>
     </button>
     <h2 class="invisible">Purchase registration</h2>
     <div class="order-watch">
       <img
         class="cart-pic"
-        srcset="
-          ../img/modal-window/watch-01.jpg    1x,
-          ../img/modal-window/watch-01@2x.jpg 2x
-        "
-        src="../img/modal-window/watch-01.jpg"
+        srcset="/Codex-team-project/assets/watch-01-34a57800.jpg 1x, /Codex-team-project/assets/watch-01@2x-9e44afdf.jpg 2x"
+        src="/Codex-team-project/assets/watch-01-34a57800.jpg"
         alt="photo of the watch"
       />
       <p class="order-item-title">Tube Watch S42 Date Steel With Black</p>
@@ -793,9 +833,10 @@
       </p>
     </form>
   </div>
+  <script src="./js/modal.js"></script>
 </div>
 
 
-    
+    <!-- <script type="module" src="main.js"></script> -->
   </body>
 </html>
