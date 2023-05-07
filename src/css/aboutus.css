@@ -1,13 +1,12 @@
 .container-aboutus{
   width: 320px;
   margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-left: 5px;
   padding-right: 5px;
   }
-  .textone-sectiontow,
-  .texttwo-sectiontow{
-  width: 100%;
-  }
+
   .text-line{
     display: flex;
     flex-wrap: wrap;
@@ -29,7 +28,7 @@
   letter-spacing: -0.02em;
   color: var(--black);
   }
-  .list-sectiontow{
+  .sectiontwo{
     margin-bottom: 40px;
   }
   .watch-gif{
@@ -38,28 +37,24 @@
     height: 365px;
     margin: 0 auto;
   }
-   .watchspotaverage{
-     display: none;
-  }
-  .watchspot{
-    display: none;
-  } 
+    .watch-sectiontow{
+      width: 310px;
+      height: 365px;
+      object-fit: cover;
+    }
+    
   @media screen and (min-width: 375px) {
       .container {
         max-width: 375px;
       }
       .aboutus> .container-aboutus{
         width: 335px;
-        padding: 0;
+        padding: 40px  0 ;
     }
-     .watchspotaverage{
-      display: block;
-      
-   }
-     .watchspotmin{
-      display: none;
-   }
-     
+    .watch-sectiontow{
+      width: 335px;
+      height: 365px;
+    } 
     }
     
     @media screen and (min-width: 768px) {
@@ -68,19 +63,16 @@
       }
       .aboutus> .container-aboutus{
         width: 704px;
-
+        padding-top: 64px;
+        padding-bottom: 64px;
     }
-      .watchspotaverage{
-        display: none;
-      }
-      .watchspot{
-        display: block;
-        width: 704px;
-        height: 456px;
-      }
-      .sectiontwo{
+    .watch-sectiontow{
+      width: 704px;
+      height: 465px;
+    }
+     .sectiontwo{
         display: flex;
-      }
+      } 
       .name-section2{
         font-size: 40px;
         line-height: calc(44 / 40);
@@ -106,13 +98,15 @@
       }
       .aboutus > .container-aboutus{
         width: 1176px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
       .sectiontwo > .list-sectiontow {
-        width: 859px;
+        width: 892px;
 
       }
-      .watchspot{
-        width: 859px;
+      .watch-sectiontow{
+        width: 892px;
         height: 500px;
       }
       .name-section2{
