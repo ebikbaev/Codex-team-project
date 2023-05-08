@@ -1,5 +1,6 @@
 /* -------------------------------320px------------------------------------------------ */
 .sale-section {
+  padding-top: 40px;
   padding-left: 5px;
   padding-right: 5px;
   padding-bottom: 80px;
@@ -179,6 +180,7 @@
 
 @media screen and (min-width: 768px) {
   .sale-section {
+    padding-top: 64px;
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 128px;
