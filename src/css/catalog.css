@@ -1,14 +1,11 @@
-.container {
-  max-width: 320px;
-  margin: auto;
-}
-
 .section {
   width: 100%;
 }
 
 .test-clas2 {
-  padding: 80px 20px;
+  padding: 40px 20px;
+  max-width: 320px;
+  margin: auto;
 }
 
 .catalog-title {
@@ -47,7 +44,7 @@
   position: absolute;
 
   top: 0px;
-  background: #1E2827;
+  background: #1e2827;
 
   border-radius: 8px;
   padding: 24px 20px 23px;
@@ -134,92 +131,83 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
+  .test-clas2 {
     max-width: 375px;
     width: 375px;
   }
 
-
-    .catalog-wrap {
-      padding: 46px 59px 41px 40px;
-    }
-
-
+  .catalog-wrap {
+    padding: 46px 59px 41px 40px;
   }
+}
 
 @media screen and (min-width: 768px) {
-  .container {
+  .test-clas2 {
+    padding: 64px 32px;
     max-width: 768px;
     width: 768px;
   }
 
-  .test-clas2 {
-    padding: 128px 32px;
-    }
-
-    .catalog-title {
-      font-size: 40px;
-      line-height: 1.1;
-    }
-
-    .catalog-list {
-      gap: 40px 32px;
-    }
-
-    .catalog-wrap {
-      padding: 46px 60px 39px 40px;
-      top: 1px;
-    }
-
-    .wrap-text {
-      margin-bottom: 22px;
-    }
-
-    .catalog-btn {
-      width: 122px;
-      height: 50px;
-    }
+  .catalog-title {
+    font-size: 40px;
+    line-height: 1.1;
   }
-  
-  @media screen and (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-      width: 1280px;
-    }
 
-    .test-clas2{
-      padding: 80px 52px;
-    }
+  .catalog-list {
+    gap: 40px 32px;
+  }
 
-    .catalog-title {
-      margin-bottom: 64px;
-    }
+  .catalog-wrap {
+    padding: 46px 60px 39px 40px;
+    top: 1px;
+  }
 
-    .catalog-list {
-      gap: 64px 24px;
-    }
+  .wrap-text {
+    margin-bottom: 22px;
+  }
 
-    .catalog-item {
-      width: auto;
-    }
+  .catalog-btn {
+    width: 122px;
+    height: 50px;
+  }
+}
 
-    .watch {
-      display: block;
-    }
+@media screen and (min-width: 1280px) {
+  .test-clas2 {
+    padding: 80px 52px;
+    max-width: 1280px;
+    width: 1280px;
+  }
 
-    .img-watch {
-      padding: 26px 0px 25px;
-    }
+  .catalog-title {
+    margin-bottom: 64px;
+  }
 
-    .catalog-wrap {
-      padding: 26px 20px 20px;
-    }
+  .catalog-list {
+    gap: 64px 24px;
+  }
 
-    .wrap-text {
-      margin-bottom: 26px;
-    }
+  .catalog-item {
+    width: auto;
+  }
 
-    .catalog-btn {
-      margin-top: 80px;
-    }
+  .watch {
+    display: block;
+  }
+
+  .img-watch {
+    padding: 26px 0px 25px;
+  }
+
+  .catalog-wrap {
+    padding: 26px 20px 20px;
+  }
+
+  .wrap-text {
+    margin-bottom: 26px;
+  }
+
+  .catalog-btn {
+    margin-top: 80px;
+  }
 }

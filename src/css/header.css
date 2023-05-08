@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 29px;
-  padding-bottom: 35px;
+  padding-bottom: 34px;
   max-width: 310px;
   margin: 0 auto;
 }
@@ -56,24 +56,34 @@
 .header-address {
   display: none;
   margin-left: auto;
-  padding: 18px 36px;
   background: var(--dark-green);
   border-radius: 8px;
 }
 .header-address-link {
+  display: block;
+  padding: 17px 35px;
   font-weight: 400;
   font-size: 9px;
   line-height: 1.33;
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--dark-green);
+  border-radius: 8px;
+}
+.header-address-link:hover,
+.header-address-link:focus {
+  border-color: var(--white);
 }
 .mobile-menu-button {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20px;
-  height: 14px;
+  width: 24px;
+  height: 24px;
   border: none;
   background-color: transparent;
   fill: rgb(255, 255, 255);
