@@ -1,7 +1,5 @@
 .header {
   background-color: var(--black);
-  padding-right: 5px;
-  padding-left: 5px;
 }
 
 .header-container {
@@ -10,8 +8,6 @@
   justify-content: space-between;
   padding-top: 29px;
   padding-bottom: 34px;
-  max-width: 310px;
-  margin: 0 auto;
 }
 
 .nav {
@@ -176,24 +172,13 @@
 }
 
 @media screen and (min-width: 375px) {
-  .header {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .header-container {
-    max-width: 335px;
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding-right: 32px;
-    padding-left: 32px;
+  .mobile-menu {
+    display: none;
   }
-
   .header-container {
-    max-width: 704px;
     padding-top: 20px;
     padding-bottom: 40px;
     justify-content: center;
@@ -230,12 +215,4 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .header {
-    padding-right: 52px;
-    padding-left: 52px;
-  }
-
-  .header-container {
-    max-width: 1176px;
-  }
 }
