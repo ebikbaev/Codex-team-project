@@ -1,35 +1,3 @@
-.test-class {
-  display: flex;
-}
-@media screen and (max-width: 375px) {
-  .Hero-container {
-    padding: 0px 5px;
-  }
-}
-@media screen and (min-width: 375px) {
-  .Hero-container {
-    max-width: 375px;
-    padding: 0px 20px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .Hero-container {
-    max-width: 768px;
-    padding: 0px 32px 0px 32px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .Hero-container {
-    max-width: 1280px;
-    padding: 0px 52px 0px 52px;
-  }
-}
-.Hero-container {
-  margin: 0 auto;
-}
-
 .Hero-img {
   display: block;
   max-width: 100%;
@@ -64,7 +32,7 @@
 
   width: 266px;
 }
-.Hero-wrapper-button{
+.Hero-wrapper-button {
   display: flex;
 }
 .Hero-button-slider {
@@ -106,8 +74,8 @@
 .slider-svg {
   fill: rgba(255, 255, 255, 0.5);
 }
-.Hero-button-slider:hover .slider-svg  {
-  fill:rgba(255, 255, 255, 1);
+.Hero-button-slider:hover .slider-svg {
+  fill: rgba(255, 255, 255, 1);
 }
 
 .Hero-vector {
@@ -140,17 +108,17 @@
     padding: 35px 0px 40px 0px;
   }
   .swiper {
-  width: 266px;
-  height: 200px;
-}
-.slider-svg {
-  width: 18px;
-  height: 18px;
-}
-.Hero-button-slider{
-width: 32px;
-height: 32px;
-}
+    width: 266px;
+    height: 200px;
+  }
+  .slider-svg {
+    width: 18px;
+    height: 18px;
+  }
+  .Hero-button-slider {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -180,17 +148,17 @@ height: 32px;
     right: 0px;
   }
   .swiper {
-  width: 436px;
-  height: 255px;
-}
-.Hero-button-slider{
-width: 40px;
-height: 40px;
-}
-.slider-svg {
-  width: 24px;
-  height: 24px;
-}
+    width: 436px;
+    height: 255px;
+  }
+  .Hero-button-slider {
+    width: 40px;
+    height: 40px;
+  }
+  .slider-svg {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -220,16 +188,11 @@ height: 40px;
     right: 0px;
     width: 282px;
   }
-    .Hero-title {
+  .Hero-title {
     margin-bottom: 43px;
   }
 }
-.swiper{
+.swiper {
   margin-bottom: 20px;
   margin-left: 0px !important;
 }
-
-
-
-
-

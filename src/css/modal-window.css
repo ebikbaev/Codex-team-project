@@ -23,6 +23,7 @@
 .modal {
   position: relative;
   max-width: 100%;
+  background-color: #fff;
 }
 
 .order-watch {
@@ -152,7 +153,7 @@
   border-radius: 8px;
 }
 
-.order-textarea-comments{
+.order-textarea-comments {
   height: 170px;
 }
 
@@ -235,11 +236,9 @@ input:invalid:not(:placeholder-shown) {
     transform: translate(-50%, -50%) scale(1);
   }
 
-
   .order-textarea-comments {
     height: 166px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {

@@ -1,11 +1,6 @@
-.section {
-  width: 100%;
-}
-
 .test-clas2 {
-  padding: 40px 20px;
-  max-width: 320px;
-  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .catalog-title {
@@ -131,11 +126,6 @@
 }
 
 @media screen and (min-width: 375px) {
-  .test-clas2 {
-    max-width: 375px;
-    width: 375px;
-  }
-
   .catalog-wrap {
     padding: 46px 59px 41px 40px;
   }
@@ -143,9 +133,8 @@
 
 @media screen and (min-width: 768px) {
   .test-clas2 {
-    padding: 64px 32px;
-    max-width: 768px;
-    width: 768px;
+    padding-top: 64px;
+    padding-bottom: 64px;
   }
 
   .catalog-title {
@@ -174,9 +163,8 @@
 
 @media screen and (min-width: 1280px) {
   .test-clas2 {
-    padding: 80px 52px;
-    max-width: 1280px;
-    width: 1280px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .catalog-title {
