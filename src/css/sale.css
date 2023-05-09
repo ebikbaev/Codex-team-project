@@ -16,6 +16,7 @@
 .sales-photos-thumb {
   /* max-width: 310px; */
   display: flex;
+  justify-content: center;
   gap: 15px;
   margin-bottom: 40px;
 }
